@@ -1,0 +1,12 @@
+mysql:
+  user:
+    database: op_user
+    addr: 127.0.0.1:3306
+    user: root
+    password: 123456
+    maxopenconns: 100
+    maxIdleTime: 300s
+    connMaxLifeTime: 3600s
+    connTimeOut: 1500ms
+    writeTimeOut: 1500ms
+    readTimeOut: 1500ms
